@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Login Page</title>
+</head>
+<body>
+    <div id="main">
+        <div id="dataset">
+            <fieldset>
+                <form action="">
+                    <h4 id="pageHead">Login</h4>
+                    <label for="user name">User Name :</label>
+                    <input type="email" placeholder="Enter the email">
+                    <label for="Password">Password:</label>
+                    <input type="password" placeholder="Enter the your Password">
+                    <input type="submit">
+                    <h5 id="otherOption">Or</h5>
+                    <button onclick="googleLogin()">Google Login</button>
+                    <button><a href="#">Mobile NO</a></button>
+                    <p>Don't have an account?<a href="/signpage.html"> Sign Up </a></p>
+                    
+                </form>
+            </fieldset>
+        </div>
+    </div>
+</body>
+
+<script>
+function googleLogin(){
+    window.location.href="google.html";
+}
+</script>
+</html>
